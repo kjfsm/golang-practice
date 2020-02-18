@@ -23,6 +23,7 @@ func main() {
 	fmt.Println("clear!!")
 }
 
+//
 func factorial(a int) int {
 	// ここを変える
 	res := 1
