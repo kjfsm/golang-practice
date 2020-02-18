@@ -34,4 +34,4 @@ func factorial(a int) int {
 	a = res
 	//変えたー
 	return a
-} //
+} 
