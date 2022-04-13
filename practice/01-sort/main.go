@@ -19,9 +19,9 @@ func main() {
 
 func sort(a []int) []int {
 	// 変えた！
-	for i := 0; i < 10; i++ {
-		for j := 0; j < 6; j++ {
-
+	length := len(a)
+	for i := 0; i < length - 1; i++ {
+		for j := 0; j < length - 1; j++ {
 			mae := a[j]
 			ato := a[j+1]
 
